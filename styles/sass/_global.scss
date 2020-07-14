@@ -1,0 +1,37 @@
+html {
+    font-size: 62.5%;
+}
+.wrapper {
+    max-width: 1400px;
+    width: 85%;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3 {
+    font-family: 'IM Fell English', serif;
+    text-transform: uppercase;
+    color: $primary;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+nav {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+// a stylings on main without targetig nav
+.mainHtml main a {
+    font-family: 'IM Fell English', serif;
+    background-color: $secondary;
+    color: $primary;
+    text-transform: uppercase;
+}
+.mainHtml main a:hover,
+.mainHtml main a:focus {
+    border: none;
+    background-color: $primary;
+    color: $secondary;
+}

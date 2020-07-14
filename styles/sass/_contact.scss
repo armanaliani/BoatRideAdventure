@@ -1,0 +1,296 @@
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact header styles start
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+.contactHtml header {
+    background-image: url("../assets/contact-header.jpg");
+    height: 75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.contactHtml header ul {
+    display: flex;
+    margin: 0;
+    height: 10vh;
+    align-items: flex-end;
+    padding: 0;
+}
+.contactHtml header ul i {
+    visibility: hidden;
+    position: absolute;
+}
+.contactHtml header li {
+    list-style: none;
+}
+.contactHtml header a {
+    color: $white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 2rem;
+    margin: 0 5px;
+}
+.contactHtml header a:hover,
+.contactHtml header a:focus{
+    border-bottom: $secondary 3px solid;
+}
+.contactHtml h1 {
+    font-size: 7.5rem;
+    color: $white;
+    padding-top: 80px;
+}
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact header styles end
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact Main styles start
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+
+.contactHtml main {
+    background-color: $background;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+}
+// for styles
+.contactHtml main form {
+    background-color: $primary;
+    width: 50vw;
+    height: 60vh;
+    position: relative;
+    top: -220px;
+    right: 6vw;
+    box-shadow: 15px 15px 1px $secondary;
+    padding: 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+// form elements styles 
+.contactHtml main form .name,
+.contactHtml main form .email {
+    background-color: $primary;
+    box-shadow: none;
+    border:none;
+    border-bottom: 2px solid $secondary;
+    padding: 10px;
+    width: 45%;
+    height: 40px;
+    margin-bottom: 20px;
+    color: $white;
+}
+.contactHtml main form input:hover,
+.contactHtml main form input:focus {
+    border: 2px solid $secondary; 
+    padding: 8px 8px 10px 8px;
+}
+.contactHtml main form input::placeholder {
+    color: $white;
+    opacity: 100%;
+    text-transform: capitalize;
+}
+.contactHtml main form textarea::placeholder {
+    color: $white;
+    opacity: 100%;
+    text-transform: capitalize;
+}
+.contactHtml main form .email {
+    margin-left: 10%;
+}
+.contactHtml main form .text {
+    width: 100%;
+    background-color: $primary;
+    border: 2px solid $secondary;
+    height: 220px;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: $white;
+    resize: none;
+}
+.contactHtml main form button {
+    width: 100%;
+    text-align: center;
+    background-color: $secondary;
+    color: $primary;
+    text-transform: uppercase;
+    font-family: 'IM Fell English', serif;
+    border: none;
+    padding: 5px 0;
+}
+.contactHtml main form button:hover,
+.contactHtml main form button:focus {
+    background-color: darken($color: $secondary, $amount: 11);
+    color: $background;
+}
+.contactHtml main form button:active {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+// ----------------------------------------
+// ----------------------------------------
+// ----------------------------------------
+// secondary content, links and info section
+.contactHtml .contactMainInfo {
+    padding-left: calc(10vw - 10px);
+    color: $primary;
+    text-transform: capitalize;
+}
+.contactHtml .contactMainInfo ul {
+    display: flex;
+    padding: 0;
+    margin-top: 100px;
+}
+.contactHtml .contactMainInfo li {
+    list-style: none;
+}
+.contactHtml .contactMainInfo a {
+    color:$primary;
+    padding: 8px 8px;
+    font-size: 2.5rem;
+    margin: 0 5px;
+}
+.contactHtml .contactMainInfo a:hover,
+.contactHtml .contactMainInfo a:focus {
+    background-color: $secondary;
+    border-radius: 30%;
+}
+.contactHtml .contactMainInfo p {
+    padding-left: 10px;
+}
+.contactHtml .contactMainInfo .infoEmail {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.contactHtml .contactMainInfo p {
+    margin: 5px 0;
+} 
+
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact Main styles end
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact footer styles start
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// ----------------------------------------------------------------
+.contactHtml footer {
+    background-color: $secondary;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.contactHtml footer p,
+.contactHtml footer a {
+    color: $primary;
+}
+.contactHtml footer a {
+    font-size: 1.8rem;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 5vw;
+    text-decoration: none;
+}
+.contactHtml footer a:hover {
+    color: $background;
+}
+.contactHtml footer a:focus {
+    border: 1px solid $primary;
+}
+.contactHtml footer p {
+    text-transform: capitalize;
+}
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact footer styles end
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact footer media query
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+@media (max-width:500px) {
+    .contactHtml footer {
+        flex-direction: column;
+    }
+    .contactHtml footer p {
+        margin: 7px auto;
+        text-align: center;
+    }
+    .contactHtml footer p,
+    .contactHtml footer a {
+        font-size: 1.6rem;
+    }
+}
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// contact footer media query
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// all Media queries
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+
+@media (max-width:1000px ) {
+    .contactHtml main form {
+        width: 60vw;
+    }
+    .contactHtml .contactMainInfo {
+        padding-top: 120px;
+    }
+}
+@media (max-width:700px) {
+    .contactHtml main {
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+    .contactHtml main form {
+        width: 90vw;
+        height: 60vh;
+        position: absolute;
+        top: -220px;
+        left: 2vw;
+        box-shadow: 15px 15px 1px $secondary;
+        padding: 6%;
+    }
+    .contactHtml .contactMainInfo ul {
+        margin-top: 150px;
+    }
+    .contactHtml h1 {
+        font-size: 7rem;
+        padding-top: 40px;
+    }
+    .contactHtml main form .name,
+    .contactHtml main form .email {
+        padding: 10px;
+        width: 90%;
+        height: 40px;
+        margin-bottom: 20px;
+        margin: 0 auto;    
+    }
+    .contactHtml main form .email {
+        margin: 10px auto 20px auto;
+    }
+    .contactHtml main .contactMainInfo {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:400px) {
+    .contactHtml main .formContact {
+        box-shadow:none;
+    }
+    .contactHtml h1 {
+        font-size: 6rem;
+        padding-top: 20px;
+    }
+    .contactHtml header a {
+        font-size: 1.7rem;
+        margin: 0 1px;
+    }
+}

@@ -1,0 +1,380 @@
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog header styles start
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+.blogHtml header {
+    background-image: url("../assets/blog-header.jpg");
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.blogHtml ul {
+    display: flex;
+    margin: 0;
+    height: 10vh;
+    align-items: flex-end;
+    padding: 0;
+}
+.blogHtml ul i {
+    visibility: hidden;
+    position: absolute;
+}
+.blogHtml li {
+    list-style: none;
+}
+.blogHtml a {
+    color: $white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 2rem;
+    margin: 0 5px;
+}
+.blogHtml a:hover,
+.blogHtml a:focus{
+    border-bottom: $secondary 3px solid;
+}
+.blogHtml h1 {
+    font-size: 7.5rem;
+    color: $white;
+    width: 40%;
+    padding-top: 150px;
+}
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog header styles end
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog main styles start
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+
+.blogHtml main {
+    display: flex;
+    // column reverse for mobile view media inquery
+    background-color: $background;
+}
+.blogHtml main .nextDestinationSection {
+    border-bottom: 4px solid $secondary;
+    position: absolute;
+    top: -200px;
+}
+.blogHtml main .blogMainContent {
+    width: 65%;
+    position: relative;
+}
+.blogHtml main .nextDestinationSection img {
+    position: relative;
+    height: 600px;
+    box-shadow: -20px 20px 1px $secondary;
+    width: calc(100% - 20px);
+    right: -2%;
+}
+.blogHtml main .nextDestinationSection div {
+    border-left: 4px solid $secondary;
+    padding: 9%;
+    padding-top: 5%;
+}
+// -------------------------------------------
+// blog comment section 
+// ------------------------------------------
+.blogHtml main .blogComents {
+    padding: 6%;
+    margin-top: 1190px;
+}
+.blogHtml main .blogComents .blogCommentEntry {
+    display: flex;
+    margin-bottom: 80px;
+}
+.blogHtml main .blogComents .blogCommentEntry h4 {
+    color: $primary;
+    margin-top: 0;
+}
+.blogHtml main .blogComents img {
+    width: 100px;
+    height: 100px;
+    margin-right: 2vw;
+}
+// blog main form styles 
+// ---------------------------------------------
+.blogHtml main form {
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.blogHtml main form .blogName,
+.blogHtml main form .blogEmail {
+    background-color: $background;
+    border:none;
+    border-bottom: 2px solid $secondary;
+    padding: 10px;
+    width: 45%;
+    height: 40px;
+    margin-bottom: 20px;
+    color: $primary;
+}
+.blogHtml main form .blogEmail {
+    margin-left: 5%;
+}
+.blogHtml main form .blogComment {
+    width: 100%;
+    background-color: $background;
+    border: 2px solid $secondary;
+    height: 220px;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: $primary;
+    resize: none;
+}
+.blogHtml main form input::placeholder,
+.blogHtml main form textarea::placeholder {
+    color: $primary;
+    opacity: 100%;
+    text-transform: capitalize;
+}
+.blogHtml main form button {
+    width: 100%;
+    text-align: center;
+    background-color: $primary;
+    color: $secondary;
+    text-transform: uppercase;
+    font-family: 'IM Fell English', serif;
+    border: none;
+    padding: 5px 0;
+}
+.blogHtml main form .blogName:hover,
+.blogHtml main form .blogName:focus,
+.blogHtml main form .blogEmail:hover,
+.blogHtml main form .blogEmail:focus,
+.blogHtml main form .blogComment:hover,
+.blogHtml main form .blogComment:focus {
+    background-color: $secondary;
+}
+.blogHtml main form button:hover,
+.blogHtml main form button:focus {
+    background-color: $secondary;
+    color: $primary;
+}
+// --------------------------------
+// --------------------------------
+// --------------------------------
+// --------------------------------
+// aside section styles
+.blogHtml main aside {
+    width: 35%;
+    position: relative;
+}
+.blogHtml main .asideContent {
+    background-color: $primary;
+    color: $white;
+    width: 55%;
+    padding: 5%;
+    padding-top: 300px;
+    position: relative;
+    top: 110px;
+    left: 10%;
+    padding-bottom: 8%;
+}
+.blogHtml main .asideContent h3 {
+    color: $secondary;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.blogHtml main aside img{
+    width: 60%;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    z-index: 1;
+    height: 300px;
+}
+.blogHtml main .asideContent ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+.blogHtml main .asideContent ul li {
+    list-style: disc;
+    margin:1px 0;
+}
+// aside section styles
+// --------------------------
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog footer styles start
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// ----------------------------------------------------------------
+.blogHtml footer {
+    background-color: $secondary;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.blogHtml footer p,
+.blogHtml footer a {
+    color: $primary;
+}
+.blogHtml footer a {
+    font-size: 1.8rem;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 5vw;
+    text-decoration: none;
+}
+.blogHtml footer a:hover {
+    color: $background;
+}
+.blogHtml footer a:focus {
+    border: 1px solid $primary;
+}
+.blogHtml footer p {
+    text-transform: capitalize;
+}
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog footer styles end
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog footer media query
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+@media (max-width:500px) {
+    .blogHtml footer {
+        flex-direction: column;
+    }
+    .blogHtml footer p {
+        margin: 7px auto;
+        text-align: center;
+    }
+    .blogHtml footer p,
+    .blogHtml footer a {
+        font-size: 1.6rem;
+    }
+}
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog footer media query
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog media queries
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+@media (max-width:1300px) {
+    // widen aside section to prevent content compression
+    .blogHtml main .asideContent {
+        width: 85%;       
+        padding-bottom: 100px;
+    }   
+    .blogHtml main aside img{
+        width: 90%;
+    }
+}
+@media (max-width:1000px) {
+    .blogHtml main .nextDestinationSection img {
+        height: 450px;
+    }
+}
+@media (max-width:900px) {
+    .blogHtml main {
+        display: flex;
+        flex-direction: column-reverse;
+        // column reverse for mobile view media inquery
+    }
+    .blogHtml main .blogMainContent {
+        width: 100%;
+        position: relative;
+    }
+    .blogHtml main .nextDestinationSection img {
+        position: static;
+        top: 0;
+        width: 100%;
+        box-shadow: none;
+        border-bottom: 30px solid $secondary;
+        border-left: none;
+    }
+    .blogHtml main .nextDestinationSection {
+        border: none;
+        position: static;
+    }
+    .blogHtml main .nextDestinationSection div {
+        border-left: none;
+    }
+    .blogHtml main aside img{
+        position: static;
+    }
+    .blogHtml main aside {
+        width: 100%;
+        position: static;
+    }
+    .blogHtml main aside .asideContent {
+        width: 100%;
+        position: static;
+        padding-top: 50px;
+        padding-bottom: 40px;;
+    }
+    .blogHtml main aside img {
+        width: 80%;
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+    .blogHtml main .blogComents {
+        padding: 6%;
+        padding-top:0;
+        margin-top: 0;
+    }
+    .blogHtml main form {
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width:550px) {
+    // adjusting form input sizes to stack
+    .blogHtml main form .blogName,
+    .blogHtml main form .blogEmail {
+        width: 100%;
+    }
+    .blogHtml main form .blogEmail {
+        margin-left: 0;
+    }
+    .blogHtml main form {
+        height: 350px;
+    }
+    // header styles, centering menu, adjusting height, etc
+    .blogHtml header {
+        height: 60vh;
+    }
+    .blogHtml ul {
+        display: flex;
+        justify-content: center;
+    }
+    .blogHtml h1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .blogHtml a {
+        font-size: 1.7rem;
+        margin: 0;
+    }
+    // adjust image width to fit down to 320px
+    .blogHtml main aside img {
+        width: 100%;
+        margin: 0;
+    }
+    // stack text as screensize gets smaller for comments
+    .blogHtml main .blogComents h2 {
+        margin-bottom: 38px;
+        text-align: center;
+    }
+    .blogHtml main .blogComents .blogCommentEntry {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .blogHtml main .blogComents .blogCommentEntry img {
+        margin-bottom: 20px;
+    }
+}
