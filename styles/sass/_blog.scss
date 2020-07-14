@@ -41,6 +41,7 @@
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // blog header styles end
 // %%%%%%%%%%%%%%%%%%%%%%%%%
+// ----------------------------------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // blog main styles start
 // %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -195,9 +196,11 @@
     list-style: disc;
     margin:1px 0;
 }
-// aside section styles
+// aside section styles end
 // --------------------------
-
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// blog main styles end
+// %%%%%%%%%%%%%%%%%%%%%%%%%
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // blog footer styles start
 // %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -233,27 +236,6 @@
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // blog footer styles end
 // %%%%%%%%%%%%%%%%%%%%%%%%%
-// %%%%%%%%%%%%%%%%%%%%%%%%%
-// blog footer media query
-// %%%%%%%%%%%%%%%%%%%%%%%%%
-@media (max-width:500px) {
-    .blogHtml footer {
-        flex-direction: column;
-    }
-    .blogHtml footer p {
-        margin: 7px auto;
-        text-align: center;
-    }
-    .blogHtml footer p,
-    .blogHtml footer a {
-        font-size: 1.6rem;
-    }
-}
-// %%%%%%%%%%%%%%%%%%%%%%%%%
-// blog footer media query
-// %%%%%%%%%%%%%%%%%%%%%%%%%
-// ----------------------------------------------------------------
-// ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -376,5 +358,18 @@
     }
     .blogHtml main .blogComents .blogCommentEntry img {
         margin-bottom: 20px;
+    }
+}
+@media (max-width:500px) {
+    .blogHtml footer {
+        flex-direction: column;
+    }
+    .blogHtml footer p {
+        margin: 7px auto;
+        text-align: center;
+    }
+    .blogHtml footer p,
+    .blogHtml footer a {
+        font-size: 1.6rem;
     }
 }

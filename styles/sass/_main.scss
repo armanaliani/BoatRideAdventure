@@ -113,8 +113,6 @@
 // first grid section end
 // ---------------------------------------
 // ---------------------------------------
-// ---------------------------------------
-// ---------------------------------------
 // second grid section start
 .mainHtml .mainGridTwo {
     background-color: $primary;
@@ -163,7 +161,6 @@
 // second grid section end
 // ---------------------------------------
 // ---------------------------------------
-// ---------------------------------------
 // main "extra vacation days" section start
 .mainHtml .extraVacSection {
     display: flex;
@@ -186,9 +183,9 @@
     margin: 0 auto;
     text-align: left;
 }
+// main "extra vacation days" section end
 // ---------------------------------------
-// ---------------------------------------
-// main "win trip of a lifetime" section 
+// main "win trip of a lifetime" section start
 .mainHtml main .tripOfLife {
     background-color: $background;
     padding: 120px 0;
@@ -214,10 +211,9 @@
 .mainHtml main .tripOfLifeSection div p {
     margin-bottom: 20px;
 }
+// main "win trip of a lifetime" section end
 // ---------------------------------------
-// ---------------------------------------
-// ---------------------------------------
-// main img gallery section
+// main img gallery section start
 .mainHtml .mainImgGal {
     background-color: $primary;
     display: flex;
@@ -228,8 +224,11 @@
     width: 30%;
     margin: 0 1%;
 }
+// main img gallery section end
 // ---------------------------------------
-// ---------------------------------------
+// %%%%%%%%%%%%%%%%%%%%%%%%%
+// main Main styles end
+// %%%%%%%%%%%%%%%%%%%%%%%%%
 // ---------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // main footer styles start
@@ -265,8 +264,6 @@
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // main footer styles end
 // %%%%%%%%%%%%%%%%%%%%%%%%%
-// ----------------------------------------------------------------
-// ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%

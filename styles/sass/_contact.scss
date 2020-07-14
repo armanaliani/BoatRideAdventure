@@ -43,6 +43,7 @@
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // contact header styles end
 // %%%%%%%%%%%%%%%%%%%%%%%%%
+// ----------------------------------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // contact Main styles start
 // %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,14 +166,11 @@
 .contactHtml .contactMainInfo p {
     margin: 5px 0;
 } 
-
-// ----------------------------------------------------------------
-// ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // contact Main styles end
 // %%%%%%%%%%%%%%%%%%%%%%%%%
-
+// ----------------------------------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // contact footer styles start
 // %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -204,38 +202,17 @@
 .contactHtml footer p {
     text-transform: capitalize;
 }
-
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // contact footer styles end
 // %%%%%%%%%%%%%%%%%%%%%%%%%
-// %%%%%%%%%%%%%%%%%%%%%%%%%
-// contact footer media query
-// %%%%%%%%%%%%%%%%%%%%%%%%%
-@media (max-width:500px) {
-    .contactHtml footer {
-        flex-direction: column;
-    }
-    .contactHtml footer p {
-        margin: 7px auto;
-        text-align: center;
-    }
-    .contactHtml footer p,
-    .contactHtml footer a {
-        font-size: 1.6rem;
-    }
-}
-
-// %%%%%%%%%%%%%%%%%%%%%%%%%
-// contact footer media query
-// %%%%%%%%%%%%%%%%%%%%%%%%%
 // ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // ----------------------------------------------------------------
 // %%%%%%%%%%%%%%%%%%%%%%%%%
-// all Media queries
+// Media queries
 // %%%%%%%%%%%%%%%%%%%%%%%%%
-
+// form sizing changes
 @media (max-width:1000px ) {
     .contactHtml main form {
         width: 60vw;
@@ -244,6 +221,7 @@
         padding-top: 120px;
     }
 }
+// form styles and sizing changes 
 @media (max-width:700px) {
     .contactHtml main {
         flex-direction: column;
@@ -281,6 +259,21 @@
         margin-bottom: 20px;
     }
 }
+//for adjusting footer items to stack on smaller screens
+@media (max-width:500px) {
+    .contactHtml footer {
+        flex-direction: column;
+    }
+    .contactHtml footer p {
+        margin: 7px auto;
+        text-align: center;
+    }
+    .contactHtml footer p,
+    .contactHtml footer a {
+        font-size: 1.6rem;
+    }
+}
+// adjusting header styles for breathing room and break points on smaller screens
 @media (max-width:400px) {
     .contactHtml main .formContact {
         box-shadow:none;

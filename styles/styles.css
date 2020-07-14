@@ -1032,23 +1032,6 @@ nav {
   text-transform: capitalize;
 }
 
-@media (max-width: 500px) {
-  .blogHtml footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .blogHtml footer p {
-    margin: 7px auto;
-    text-align: center;
-  }
-  .blogHtml footer p,
-  .blogHtml footer a {
-    font-size: 1.6rem;
-  }
-}
-
 @media (max-width: 1300px) {
   .blogHtml main .asideContent {
     width: 85%;
@@ -1178,6 +1161,23 @@ nav {
   }
   .blogHtml main .blogComents .blogCommentEntry img {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .blogHtml footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogHtml footer p {
+    margin: 7px auto;
+    text-align: center;
+  }
+  .blogHtml footer p,
+  .blogHtml footer a {
+    font-size: 1.6rem;
   }
 }
 
@@ -1452,23 +1452,6 @@ nav {
   text-transform: capitalize;
 }
 
-@media (max-width: 500px) {
-  .contactHtml footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .contactHtml footer p {
-    margin: 7px auto;
-    text-align: center;
-  }
-  .contactHtml footer p,
-  .contactHtml footer a {
-    font-size: 1.6rem;
-  }
-}
-
 @media (max-width: 1000px) {
   .contactHtml main form {
     width: 60vw;
@@ -1519,6 +1502,23 @@ nav {
   }
   .contactHtml main .contactMainInfo {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contactHtml footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactHtml footer p {
+    margin: 7px auto;
+    text-align: center;
+  }
+  .contactHtml footer p,
+  .contactHtml footer a {
+    font-size: 1.6rem;
   }
 }
 
