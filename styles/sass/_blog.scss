@@ -345,6 +345,7 @@
     // adjust image width to fit down to 320px
     .blog main aside img {
         width: 100%;
+        height: auto;
         margin: 0;
     }
     // stack text as screensize gets smaller for comments

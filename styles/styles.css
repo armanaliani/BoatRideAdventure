@@ -1144,6 +1144,7 @@ nav {
   }
   .blog main aside img {
     width: 100%;
+    height: auto;
     margin: 0;
   }
   .blog main .blogComents h2 {
