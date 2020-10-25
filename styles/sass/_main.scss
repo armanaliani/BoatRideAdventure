@@ -305,6 +305,7 @@
         margin: 0 auto;
         top: -50px;
         width: 70vw;
+        border-right: 15px solid #FDD908;
     }
     .main .mainGridOneFlex {
         padding-top: 0px;
@@ -374,10 +375,18 @@
     .main .mainImgGal .imgGalimg2 {
         margin: 20px calc(20vw - 10%);
     }
+    .main .mainGridOne img {
+        border-right: 10px solid #FDD908;
+    }
 }
 @media (max-width:550px) {
     .main main .tripOfLifeSection img {
         width: 70%;
+    }
+    //header top main section
+    .main .mainGridOne img {
+        width: 90vw;
+        right: 0;
     }
 }
 // main footer media query to stack
@@ -397,9 +406,6 @@
         font-size: 1.6rem;
     }
     // header/top main section
-    .main .mainGridOne img {
-        width: 90vw;
-    }
     .main h1 {
         font-size: 3.7rem;
         padding-top: 110px;
