@@ -1,7 +1,7 @@
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // main header styles start
 // %%%%%%%%%%%%%%%%%%%%%%%%%
-.mainHtml header {
+.main header {
     background-image: url("../assets/home-header.jpg");
     height: 100vh;
     width: 100%;
@@ -9,32 +9,32 @@
     position: relative;
     background-size: cover;
 }
-.mainHtml ul {
+.main ul {
     display: flex;
     margin: 0;
     height: 15vh;
     align-items: flex-end;
     padding: 0;
 }
-.mainHtml ul i {
+.main ul i {
     visibility: hidden;
     position: absolute;
 }
-.mainHtml li {
+.main li {
     list-style: none;
 }
-.mainHtml a {
+.main a {
     color: $white;
     text-decoration: none;
     padding: 10px 10px;
     font-size: 2rem;
     margin: 0 5px;
 }
-.mainHtml a:hover,
-.mainHtml a:focus{
+.main a:hover,
+.main a:focus{
     border-bottom: $secondary 3px solid;
 }
-.mainHtml h1 {
+.main h1 {
     font-size: 7.5rem;
     color: $secondary;
     width: 40vw;
@@ -48,11 +48,11 @@
 // main Main styles start
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 
-.mainHtml .mainGridOne {
+.main .mainGridOne {
     background-color: $background;
     position: relative;
 }
-.mainHtml .mainGridOne img {
+.main .mainGridOne img {
     position: absolute;
     right: 0;
     bottom: 550px;
@@ -61,32 +61,32 @@
 // grid layout in first main section
 // ---------------------------------
 // ---------------------------------
-.mainHtml .mainGridOneFlex {
+.main .mainGridOneFlex {
     display: flex;
     flex-wrap: wrap;
     padding-top: 150px;
     padding-bottom: 80px;
 }
-.mainHtml .mainGridOne .gridFirstDiv {
+.main .mainGridOne .gridFirstDiv {
     width: 50%;
     display: flex;
     flex-direction: column;
     padding:3% 0;
 }
-.mainHtml .mainGridOne .gridFirstDiv p {
+.main .mainGridOne .gridFirstDiv p {
     margin-left: 10%;
     margin-top: 0;
 }
-.mainHtml .mainGridOne .gridSecindDiv {
+.main .mainGridOne .gridSecindDiv {
     display: flex;
     align-items: center;
 }
-.mainHtml .mainGridOne .gridSecindDiv h3 {
+.main .mainGridOne .gridSecindDiv h3 {
     margin: 0;
     padding-left: 15px;
     font-size: 2.8rem;
 }
-.mainHtml .mainGridOne .gridSecindDiv i {
+.main .mainGridOne .gridSecindDiv i {
     width: 45px;
     height: 45px;
     font-size: 2.8rem;
@@ -97,12 +97,12 @@
     align-items: center;
     position: relative;
 }
-.mainHtml .mainGridOne .gridSecindDiv i:hover,
-.mainHtml .mainGridOne .gridSecindDiv i:focus {
+.main .mainGridOne .gridSecindDiv i:hover,
+.main .mainGridOne .gridSecindDiv i:focus {
     background-color: $primary;
     color: $secondary;
 }
-.mainHtml main .mainGridOne .gridSecindDiv a {
+.main main .mainGridOne .gridSecindDiv a {
     background-color: none;
     opacity: 0;
     position: absolute;
@@ -114,46 +114,46 @@
 // ---------------------------------------
 // ---------------------------------------
 // second grid section start
-.mainHtml .mainGridTwo {
+.main .mainGridTwo {
     background-color: $primary;
     display: flex;
     flex-wrap: wrap;
     color: $white;
 }
-.mainHtml .mainGridTwo .gridTwoFlexChild {
+.main .mainGridTwo .gridTwoFlexChild {
     width: 45%;
 }
-.mainHtml .mainGridTwo .mainGridTwoImg2 {
+.main .mainGridTwo .mainGridTwoImg2 {
     order: 1;
     margin-left: 10%;
     box-shadow: -20px 20px 1px $secondary;
     position: relative;
     bottom: -40px;
 }
-.mainHtml .mainGridTwo .mainGridTwoImg1 {
+.main .mainGridTwo .mainGridTwoImg1 {
     margin-right: 10%;
     box-shadow: 20px 20px 1px $secondary;
     position: relative;
     top: -40px;
 }
-.mainHtml .mainGridTwo h2 {
+.main .mainGridTwo h2 {
     color: $white
 }
-.mainHtml .mainGridTwo .mainGridTwoText1,
-.mainHtml .mainGridTwo .mainGridTwoText2 {
+.main .mainGridTwo .mainGridTwoText1,
+.main .mainGridTwo .mainGridTwoText2 {
     padding: 5% 0;
     padding-left: 10%;
     text-align: right;
 }
-.mainHtml .mainGridTwo .mainGridTwoText1 {
+.main .mainGridTwo .mainGridTwoText1 {
     padding-right: 10%;
     padding-left: 0;
     text-align: left;
 }
-.mainHtml .mainGridTwo .mainGridTwoText1 a:hover,
-.mainHtml .mainGridTwo .mainGridTwoText2 a:hover,
-.mainHtml .mainGridTwo .mainGridTwoText1 a:focus,
-.mainHtml .mainGridTwo .mainGridTwoText2 a:focus {
+.main .mainGridTwo .mainGridTwoText1 a:hover,
+.main .mainGridTwo .mainGridTwoText2 a:hover,
+.main .mainGridTwo .mainGridTwoText1 a:focus,
+.main .mainGridTwo .mainGridTwoText2 a:focus {
     background-color: $background;
     // restate color to cancel out global hover styles
     color: $primary;
@@ -162,7 +162,7 @@
 // ---------------------------------------
 // ---------------------------------------
 // main "extra vacation days" section start
-.mainHtml .extraVacSection {
+.main .extraVacSection {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -170,15 +170,15 @@
     background-color: $background;
     padding-top: 110px;
 }
-.mainHtml .extraVacSection img{
+.main .extraVacSection img{
     width: 100%;
 }
-.mainHtml main .extraVacSection a {
+.main main .extraVacSection a {
     margin: 0  auto;
     margin-top: 30px;
     margin-bottom: 110px;
 }
-.mainHtml main .extraVacSection p {
+.main main .extraVacSection p {
     width: 70%;
     margin: 0 auto;
     text-align: left;
@@ -186,41 +186,41 @@
 // main "extra vacation days" section end
 // ---------------------------------------
 // main "win trip of a lifetime" section start
-.mainHtml main .tripOfLife {
+.main main .tripOfLife {
     background-color: $background;
     padding: 120px 0;
 }
-.mainHtml main .tripOfLifeSection {
+.main main .tripOfLifeSection {
     display: flex;
 }
-.mainHtml main .tripOfLifeSection img {
+.main main .tripOfLifeSection img {
     width: 25%;
     box-shadow: -20px 20px 1px $secondary;
 }
-.mainHtml main .tripOfLifeSection div {
+.main main .tripOfLifeSection div {
     width: 70%;
     padding-left: 5%;
     position: relative;
 }
-.mainHtml main .tripOfLifeSection div a {
+.main main .tripOfLifeSection div a {
     margin-top: 30px;
 }
-.mainHtml main .tripOfLifeSection div h2 {
+.main main .tripOfLifeSection div h2 {
     margin-top: 0;
 }
-.mainHtml main .tripOfLifeSection div p {
+.main main .tripOfLifeSection div p {
     margin-bottom: 20px;
 }
 // main "win trip of a lifetime" section end
 // ---------------------------------------
 // main img gallery section start
-.mainHtml .mainImgGal {
+.main .mainImgGal {
     background-color: $primary;
     display: flex;
     justify-content: space-between;
     padding: 6% 0;
 }
-.mainHtml .mainImgGal img {
+.main .mainImgGal img {
     width: 30%;
     margin: 0 1%;
 }
@@ -234,31 +234,31 @@
 // main footer styles start
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // ----------------------------------------------------------------
-.mainHtml footer {
+.main footer {
     background-color: $secondary;
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-.mainHtml footer p,
-.mainHtml footer a {
+.main footer p,
+.main footer a {
     color: $primary;
 }
-.mainHtml footer a {
+.main footer a {
     font-size: 1.8rem;
     margin-left: 0;
     padding-left: 0;
     margin-right: 5vw;
     text-decoration: none;
 }
-.mainHtml footer a:hover {
+.main footer a:hover {
     color: $background;
 }
-.mainHtml footer a:focus {
+.main footer a:focus {
     border: 1px solid $primary;
 }
-.mainHtml footer p {
+.main footer p {
     text-transform: capitalize;
 }
 // %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -271,45 +271,45 @@
 // %%%%%%%%%%%%%%%%%%%%%%%%%
 // to stop header img and h1 from overlapping
 @media (max-width:1350px){
-    .mainHtml .mainGridOne img {
+    .main .mainGridOne img {
         width: 55vw;
         bottom: 500px;
     }
-    .mainHtml h1 {
+    .main h1 {
         font-size: 7rem;
         padding-top: 180px;
     }
 }
 // to stop header img and h1 from overlapping
 @media (max-width:1175px) {
-    .mainHtml .mainGridOne img {
+    .main .mainGridOne img {
         bottom: 550px;
     }
-    .mainHtml h1 {
+    .main h1 {
         font-size: 6rem;
         padding-top: 110px;
     }
 }
 // change header img postion and center it, from desktop into tablet view into mobile
 @media (max-width:950px) {
-    .mainHtml .mainGridOne .gridFirstDiv {
+    .main .mainGridOne .gridFirstDiv {
         width: 90%;
         padding:5% 0;
     }
-    .mainHtml header {
+    .main header {
         height: 70vh;
     }
-    .mainHtml .mainGridOne img {
+    .main .mainGridOne img {
         position: relative;
         display: block;
         margin: 0 auto;
         top: -50px;
         width: 70vw;
     }
-    .mainHtml .mainGridOneFlex {
+    .main .mainGridOneFlex {
         padding-top: 0px;
     }
-    .mainHtml h1 {
+    .main h1 {
         font-size: 5rem;
         padding-top: 150px;
         width: 100%;
@@ -317,19 +317,19 @@
 }
 // trip of a lifetime section change flex direction to stack
 @media (max-width:900px) {
-    .mainHtml main .tripOfLifeSection {
+    .main main .tripOfLifeSection {
         flex-direction: column;
         align-items: center;
     }
-    .mainHtml main .tripOfLifeSection img {
+    .main main .tripOfLifeSection img {
         width: 50%;
         margin: 0 auto 50px auto;
     }
-    .mainHtml main .tripOfLifeSection div {
+    .main main .tripOfLifeSection div {
         width: 80%;
         padding-left: 5%;
     }
-    .mainHtml main .tripOfLifeSection div a {
+    .main main .tripOfLifeSection div a {
         width: 20%;
         padding: 10px 6%;
         margin-top: 50px ;
@@ -337,26 +337,26 @@
 }
 // media queries for grid two section
 @media (max-width: 850px) {
-    .mainHtml .mainGridTwo {
+    .main .mainGridTwo {
         flex-direction: column;
     }
-    .mainHtml .mainGridTwo .gridTwoFlexChild {
+    .main .mainGridTwo .gridTwoFlexChild {
         width: 90%;
     }
-    .mainHtml .mainGridTwo .mainGridTwoImg1 {
+    .main .mainGridTwo .mainGridTwoImg1 {
         position: static;
     }
-    .mainHtml .mainGridTwo .mainGridTwoImg2 {
+    .main .mainGridTwo .mainGridTwoImg2 {
         order: 0;
         position: static;
     }
-    .mainHtml .mainGridTwo .mainGridTwoText1,
-    .mainHtml .mainGridTwo .mainGridTwoText2 {
+    .main .mainGridTwo .mainGridTwoText1,
+    .main .mainGridTwo .mainGridTwoText2 {
         text-align: right;
         padding-top: 9%;
         padding-bottom: 9%;
     }
-    .mainHtml .mainGridTwo .mainGridTwoText1 {
+    .main .mainGridTwo .mainGridTwoText1 {
         padding-right: auto;
         padding-left: 10%;
         text-align: left;
@@ -364,19 +364,19 @@
 }
 // media for gallery to be responsive
 @media (max-width:700px) {
-    .mainHtml .mainImgGal img  {
+    .main .mainImgGal img  {
         width: 60vw;
         margin: 0 calc(20vw - 10%);
     }
-    .mainHtml .mainImgGal {
+    .main .mainImgGal {
         padding: 11% 0;
     }
-    .mainHtml .mainImgGal .imgGalimg2 {
+    .main .mainImgGal .imgGalimg2 {
         margin: 20px calc(20vw - 10%);
     }
 }
 @media (max-width:550px) {
-    .mainHtml main .tripOfLifeSection img {
+    .main main .tripOfLifeSection img {
         width: 70%;
     }
 }
@@ -385,37 +385,36 @@
 // header adjustment for img, h1, and first main section headers
 @media (max-width:500px) {
     // footer section
-    .mainHtml footer {
+    .main footer {
         flex-direction: column;
     }
-    .mainHtml footer p {
+    .main footer p {
         margin: 7px auto;
         text-align: center;
     }
-    .mainHtml footer p,
-    .mainHtml footer a {
+    .main footer p,
+    .main footer a {
         font-size: 1.6rem;
     }
     // header/top main section
-    .mainHtml .mainGridOne img {
+    .main .mainGridOne img {
         width: 90vw;
     }
-    .mainHtml h1 {
+    .main h1 {
         font-size: 3.7rem;
         padding-top: 110px;
     }
-    .mainHtml header a {
+    .main header a {
         font-size: 1.7rem;
         margin: 0 1px;
     }
-    .mainHtml .mainGridOne .gridSecindDiv h3 {
+    .main .mainGridOne .gridSecindDiv h3 {
         font-size: 2.2rem;
         margin-bottom: 5px;
     }
-    .mainHtml .mainGridOne .gridFirstDiv p {
+    .main .mainGridOne .gridFirstDiv p {
         margin-left: 17%;
         font-size: 1.6rem;
     }
-    
 }
 

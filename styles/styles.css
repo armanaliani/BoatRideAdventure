@@ -277,7 +277,7 @@ nav {
   color: #fdd908;
 }
 
-.mainHtml header {
+.main header {
   background-image: url("../assets/home-header.jpg");
   height: 100vh;
   width: 100%;
@@ -286,7 +286,7 @@ nav {
   background-size: cover;
 }
 
-.mainHtml ul {
+.main ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -298,16 +298,16 @@ nav {
   padding: 0;
 }
 
-.mainHtml ul i {
+.main ul i {
   visibility: hidden;
   position: absolute;
 }
 
-.mainHtml li {
+.main li {
   list-style: none;
 }
 
-.mainHtml a {
+.main a {
   color: #fff;
   text-decoration: none;
   padding: 10px 10px;
@@ -315,31 +315,31 @@ nav {
   margin: 0 5px;
 }
 
-.mainHtml a:hover,
-.mainHtml a:focus {
+.main a:hover,
+.main a:focus {
   border-bottom: #fdd908 3px solid;
 }
 
-.mainHtml h1 {
+.main h1 {
   font-size: 7.5rem;
   color: #fdd908;
   width: 40vw;
   padding-top: 300px;
 }
 
-.mainHtml .mainGridOne {
+.main .mainGridOne {
   background-color: #eafefc;
   position: relative;
 }
 
-.mainHtml .mainGridOne img {
+.main .mainGridOne img {
   position: absolute;
   right: 0;
   bottom: 550px;
   width: 60vw;
 }
 
-.mainHtml .mainGridOneFlex {
+.main .mainGridOneFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,7 +349,7 @@ nav {
   padding-bottom: 80px;
 }
 
-.mainHtml .mainGridOne .gridFirstDiv {
+.main .mainGridOne .gridFirstDiv {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,12 +361,12 @@ nav {
   padding: 3% 0;
 }
 
-.mainHtml .mainGridOne .gridFirstDiv p {
+.main .mainGridOne .gridFirstDiv p {
   margin-left: 10%;
   margin-top: 0;
 }
 
-.mainHtml .mainGridOne .gridSecindDiv {
+.main .mainGridOne .gridSecindDiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,13 +375,13 @@ nav {
           align-items: center;
 }
 
-.mainHtml .mainGridOne .gridSecindDiv h3 {
+.main .mainGridOne .gridSecindDiv h3 {
   margin: 0;
   padding-left: 15px;
   font-size: 2.8rem;
 }
 
-.mainHtml .mainGridOne .gridSecindDiv i {
+.main .mainGridOne .gridSecindDiv i {
   width: 45px;
   height: 45px;
   font-size: 2.8rem;
@@ -399,13 +399,13 @@ nav {
   position: relative;
 }
 
-.mainHtml .mainGridOne .gridSecindDiv i:hover,
-.mainHtml .mainGridOne .gridSecindDiv i:focus {
+.main .mainGridOne .gridSecindDiv i:hover,
+.main .mainGridOne .gridSecindDiv i:focus {
   background-color: #0d457f;
   color: #fdd908;
 }
 
-.mainHtml main .mainGridOne .gridSecindDiv a {
+.main main .mainGridOne .gridSecindDiv a {
   background-color: none;
   opacity: 0;
   position: absolute;
@@ -414,7 +414,7 @@ nav {
   border-radius: 50%;
 }
 
-.mainHtml .mainGridTwo {
+.main .mainGridTwo {
   background-color: #0d457f;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,11 +424,11 @@ nav {
   color: #fff;
 }
 
-.mainHtml .mainGridTwo .gridTwoFlexChild {
+.main .mainGridTwo .gridTwoFlexChild {
   width: 45%;
 }
 
-.mainHtml .mainGridTwo .mainGridTwoImg2 {
+.main .mainGridTwo .mainGridTwoImg2 {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
@@ -439,7 +439,7 @@ nav {
   bottom: -40px;
 }
 
-.mainHtml .mainGridTwo .mainGridTwoImg1 {
+.main .mainGridTwo .mainGridTwoImg1 {
   margin-right: 10%;
   -webkit-box-shadow: 20px 20px 1px #fdd908;
           box-shadow: 20px 20px 1px #fdd908;
@@ -447,32 +447,32 @@ nav {
   top: -40px;
 }
 
-.mainHtml .mainGridTwo h2 {
+.main .mainGridTwo h2 {
   color: #fff;
 }
 
-.mainHtml .mainGridTwo .mainGridTwoText1,
-.mainHtml .mainGridTwo .mainGridTwoText2 {
+.main .mainGridTwo .mainGridTwoText1,
+.main .mainGridTwo .mainGridTwoText2 {
   padding: 5% 0;
   padding-left: 10%;
   text-align: right;
 }
 
-.mainHtml .mainGridTwo .mainGridTwoText1 {
+.main .mainGridTwo .mainGridTwoText1 {
   padding-right: 10%;
   padding-left: 0;
   text-align: left;
 }
 
-.mainHtml .mainGridTwo .mainGridTwoText1 a:hover,
-.mainHtml .mainGridTwo .mainGridTwoText2 a:hover,
-.mainHtml .mainGridTwo .mainGridTwoText1 a:focus,
-.mainHtml .mainGridTwo .mainGridTwoText2 a:focus {
+.main .mainGridTwo .mainGridTwoText1 a:hover,
+.main .mainGridTwo .mainGridTwoText2 a:hover,
+.main .mainGridTwo .mainGridTwoText1 a:focus,
+.main .mainGridTwo .mainGridTwoText2 a:focus {
   background-color: #eafefc;
   color: #0d457f;
 }
 
-.mainHtml .extraVacSection {
+.main .extraVacSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,58 +486,58 @@ nav {
   padding-top: 110px;
 }
 
-.mainHtml .extraVacSection img {
+.main .extraVacSection img {
   width: 100%;
 }
 
-.mainHtml main .extraVacSection a {
+.main main .extraVacSection a {
   margin: 0  auto;
   margin-top: 30px;
   margin-bottom: 110px;
 }
 
-.mainHtml main .extraVacSection p {
+.main main .extraVacSection p {
   width: 70%;
   margin: 0 auto;
   text-align: left;
 }
 
-.mainHtml main .tripOfLife {
+.main main .tripOfLife {
   background-color: #eafefc;
   padding: 120px 0;
 }
 
-.mainHtml main .tripOfLifeSection {
+.main main .tripOfLifeSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.mainHtml main .tripOfLifeSection img {
+.main main .tripOfLifeSection img {
   width: 25%;
   -webkit-box-shadow: -20px 20px 1px #fdd908;
           box-shadow: -20px 20px 1px #fdd908;
 }
 
-.mainHtml main .tripOfLifeSection div {
+.main main .tripOfLifeSection div {
   width: 70%;
   padding-left: 5%;
   position: relative;
 }
 
-.mainHtml main .tripOfLifeSection div a {
+.main main .tripOfLifeSection div a {
   margin-top: 30px;
 }
 
-.mainHtml main .tripOfLifeSection div h2 {
+.main main .tripOfLifeSection div h2 {
   margin-top: 0;
 }
 
-.mainHtml main .tripOfLifeSection div p {
+.main main .tripOfLifeSection div p {
   margin-bottom: 20px;
 }
 
-.mainHtml .mainImgGal {
+.main .mainImgGal {
   background-color: #0d457f;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -548,12 +548,12 @@ nav {
   padding: 6% 0;
 }
 
-.mainHtml .mainImgGal img {
+.main .mainImgGal img {
   width: 30%;
   margin: 0 1%;
 }
 
-.mainHtml footer {
+.main footer {
   background-color: #fdd908;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -567,12 +567,12 @@ nav {
           align-items: center;
 }
 
-.mainHtml footer p,
-.mainHtml footer a {
+.main footer p,
+.main footer a {
   color: #0d457f;
 }
 
-.mainHtml footer a {
+.main footer a {
   font-size: 1.8rem;
   margin-left: 0;
   padding-left: 0;
@@ -580,58 +580,58 @@ nav {
   text-decoration: none;
 }
 
-.mainHtml footer a:hover {
+.main footer a:hover {
   color: #eafefc;
 }
 
-.mainHtml footer a:focus {
+.main footer a:focus {
   border: 1px solid #0d457f;
 }
 
-.mainHtml footer p {
+.main footer p {
   text-transform: capitalize;
 }
 
 @media (max-width: 1350px) {
-  .mainHtml .mainGridOne img {
+  .main .mainGridOne img {
     width: 55vw;
     bottom: 500px;
   }
-  .mainHtml h1 {
+  .main h1 {
     font-size: 7rem;
     padding-top: 180px;
   }
 }
 
 @media (max-width: 1175px) {
-  .mainHtml .mainGridOne img {
+  .main .mainGridOne img {
     bottom: 550px;
   }
-  .mainHtml h1 {
+  .main h1 {
     font-size: 6rem;
     padding-top: 110px;
   }
 }
 
 @media (max-width: 950px) {
-  .mainHtml .mainGridOne .gridFirstDiv {
+  .main .mainGridOne .gridFirstDiv {
     width: 90%;
     padding: 5% 0;
   }
-  .mainHtml header {
+  .main header {
     height: 70vh;
   }
-  .mainHtml .mainGridOne img {
+  .main .mainGridOne img {
     position: relative;
     display: block;
     margin: 0 auto;
     top: -50px;
     width: 70vw;
   }
-  .mainHtml .mainGridOneFlex {
+  .main .mainGridOneFlex {
     padding-top: 0px;
   }
-  .mainHtml h1 {
+  .main h1 {
     font-size: 5rem;
     padding-top: 150px;
     width: 100%;
@@ -639,7 +639,7 @@ nav {
 }
 
 @media (max-width: 900px) {
-  .mainHtml main .tripOfLifeSection {
+  .main main .tripOfLifeSection {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -648,15 +648,15 @@ nav {
         -ms-flex-align: center;
             align-items: center;
   }
-  .mainHtml main .tripOfLifeSection img {
+  .main main .tripOfLifeSection img {
     width: 50%;
     margin: 0 auto 50px auto;
   }
-  .mainHtml main .tripOfLifeSection div {
+  .main main .tripOfLifeSection div {
     width: 80%;
     padding-left: 5%;
   }
-  .mainHtml main .tripOfLifeSection div a {
+  .main main .tripOfLifeSection div a {
     width: 20%;
     padding: 10px 6%;
     margin-top: 50px;
@@ -664,31 +664,31 @@ nav {
 }
 
 @media (max-width: 850px) {
-  .mainHtml .mainGridTwo {
+  .main .mainGridTwo {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mainHtml .mainGridTwo .gridTwoFlexChild {
+  .main .mainGridTwo .gridTwoFlexChild {
     width: 90%;
   }
-  .mainHtml .mainGridTwo .mainGridTwoImg1 {
+  .main .mainGridTwo .mainGridTwoImg1 {
     position: static;
   }
-  .mainHtml .mainGridTwo .mainGridTwoImg2 {
+  .main .mainGridTwo .mainGridTwoImg2 {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
     position: static;
   }
-  .mainHtml .mainGridTwo .mainGridTwoText1,
-  .mainHtml .mainGridTwo .mainGridTwoText2 {
+  .main .mainGridTwo .mainGridTwoText1,
+  .main .mainGridTwo .mainGridTwoText2 {
     text-align: right;
     padding-top: 9%;
     padding-bottom: 9%;
   }
-  .mainHtml .mainGridTwo .mainGridTwoText1 {
+  .main .mainGridTwo .mainGridTwoText1 {
     padding-right: auto;
     padding-left: 10%;
     text-align: left;
@@ -696,68 +696,68 @@ nav {
 }
 
 @media (max-width: 700px) {
-  .mainHtml .mainImgGal img {
+  .main .mainImgGal img {
     width: 60vw;
     margin: 0 calc(20vw - 10%);
   }
-  .mainHtml .mainImgGal {
+  .main .mainImgGal {
     padding: 11% 0;
   }
-  .mainHtml .mainImgGal .imgGalimg2 {
+  .main .mainImgGal .imgGalimg2 {
     margin: 20px calc(20vw - 10%);
   }
 }
 
 @media (max-width: 550px) {
-  .mainHtml main .tripOfLifeSection img {
+  .main main .tripOfLifeSection img {
     width: 70%;
   }
 }
 
 @media (max-width: 500px) {
-  .mainHtml footer {
+  .main footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mainHtml footer p {
+  .main footer p {
     margin: 7px auto;
     text-align: center;
   }
-  .mainHtml footer p,
-  .mainHtml footer a {
+  .main footer p,
+  .main footer a {
     font-size: 1.6rem;
   }
-  .mainHtml .mainGridOne img {
+  .main .mainGridOne img {
     width: 90vw;
   }
-  .mainHtml h1 {
+  .main h1 {
     font-size: 3.7rem;
     padding-top: 110px;
   }
-  .mainHtml header a {
+  .main header a {
     font-size: 1.7rem;
     margin: 0 1px;
   }
-  .mainHtml .mainGridOne .gridSecindDiv h3 {
+  .main .mainGridOne .gridSecindDiv h3 {
     font-size: 2.2rem;
     margin-bottom: 5px;
   }
-  .mainHtml .mainGridOne .gridFirstDiv p {
+  .main .mainGridOne .gridFirstDiv p {
     margin-left: 17%;
     font-size: 1.6rem;
   }
 }
 
-.blogHtml header {
+.blog header {
   background-image: url("../assets/blog-header.jpg");
   height: 80vh;
   width: 100%;
   background-repeat: no-repeat;
 }
 
-.blogHtml ul {
+.blog ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -769,16 +769,16 @@ nav {
   padding: 0;
 }
 
-.blogHtml ul i {
+.blog ul i {
   visibility: hidden;
   position: absolute;
 }
 
-.blogHtml li {
+.blog li {
   list-style: none;
 }
 
-.blogHtml a {
+.blog a {
   color: #fff;
   text-decoration: none;
   padding: 10px 10px;
@@ -786,83 +786,83 @@ nav {
   margin: 0 5px;
 }
 
-.blogHtml a:hover,
-.blogHtml a:focus {
+.blog a:hover,
+.blog a:focus {
   border-bottom: #fdd908 3px solid;
 }
 
-.blogHtml h1 {
+.blog h1 {
   font-size: 7.5rem;
   color: #fff;
   width: 40%;
   padding-top: 150px;
 }
 
-.blogHtml main {
+.blog main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: #eafefc;
 }
 
-.blogHtml main .nextDestinationSection {
+.blog main .nextDestinationSection {
   border-bottom: 4px solid #fdd908;
   position: absolute;
   top: -200px;
 }
 
-.blogHtml main .blogMainContent {
+.blog main .blogMainContent {
   width: 65%;
   position: relative;
 }
 
-.blogHtml main .nextDestinationSection img {
+.blog main .nextDestinationSection img {
   position: relative;
-  height: 600px;
+  width: 600px;
   -webkit-box-shadow: -20px 20px 1px #fdd908;
           box-shadow: -20px 20px 1px #fdd908;
   width: calc(100% - 20px);
   right: -2%;
 }
 
-.blogHtml main .nextDestinationSection div {
+.blog main .nextDestinationSection div {
   border-left: 4px solid #fdd908;
   padding: 9%;
   padding-top: 5%;
 }
 
-.blogHtml main .blogComents {
+.blog main .blogComents {
   padding: 6%;
   margin-top: 1190px;
 }
 
-.blogHtml main .blogComents .blogCommentEntry {
+.blog main .blogComents .blogCommentEntry {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 80px;
 }
 
-.blogHtml main .blogComents .blogCommentEntry h4 {
+.blog main .blogComents .blogCommentEntry h4 {
   color: #0d457f;
   margin-top: 0;
 }
 
-.blogHtml main .blogComents img {
+.blog main .blogComents img {
   width: 100px;
   height: 100px;
   margin-right: 2vw;
 }
 
-.blogHtml main form {
+.blog main form {
   width: 60vw;
   height: 60vh;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
-.blogHtml main form .blogName,
-.blogHtml main form .blogEmail {
+.blog main form .blogName,
+.blog main form .blogEmail {
   background-color: #eafefc;
   border: none;
   border-bottom: 2px solid #fdd908;
@@ -873,11 +873,11 @@ nav {
   color: #0d457f;
 }
 
-.blogHtml main form .blogEmail {
+.blog main form .blogEmail {
   margin-left: 5%;
 }
 
-.blogHtml main form .blogComment {
+.blog main form .blogComment {
   width: 100%;
   background-color: #eafefc;
   border: 2px solid #fdd908;
@@ -888,35 +888,35 @@ nav {
   resize: none;
 }
 
-.blogHtml main form input::-webkit-input-placeholder,
-.blogHtml main form textarea::-webkit-input-placeholder {
+.blog main form input::-webkit-input-placeholder,
+.blog main form textarea::-webkit-input-placeholder {
   color: #0d457f;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.blogHtml main form input:-ms-input-placeholder,
-.blogHtml main form textarea:-ms-input-placeholder {
+.blog main form input:-ms-input-placeholder,
+.blog main form textarea:-ms-input-placeholder {
   color: #0d457f;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.blogHtml main form input::-ms-input-placeholder,
-.blogHtml main form textarea::-ms-input-placeholder {
+.blog main form input::-ms-input-placeholder,
+.blog main form textarea::-ms-input-placeholder {
   color: #0d457f;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.blogHtml main form input::placeholder,
-.blogHtml main form textarea::placeholder {
+.blog main form input::placeholder,
+.blog main form textarea::placeholder {
   color: #0d457f;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.blogHtml main form button {
+.blog main form button {
   width: 100%;
   text-align: center;
   background-color: #0d457f;
@@ -927,27 +927,27 @@ nav {
   padding: 5px 0;
 }
 
-.blogHtml main form .blogName:hover,
-.blogHtml main form .blogName:focus,
-.blogHtml main form .blogEmail:hover,
-.blogHtml main form .blogEmail:focus,
-.blogHtml main form .blogComment:hover,
-.blogHtml main form .blogComment:focus {
+.blog main form .blogName:hover,
+.blog main form .blogName:focus,
+.blog main form .blogEmail:hover,
+.blog main form .blogEmail:focus,
+.blog main form .blogComment:hover,
+.blog main form .blogComment:focus {
   background-color: #fdd908;
 }
 
-.blogHtml main form button:hover,
-.blogHtml main form button:focus {
+.blog main form button:hover,
+.blog main form button:focus {
   background-color: #fdd908;
   color: #0d457f;
 }
 
-.blogHtml main aside {
+.blog main aside {
   width: 35%;
   position: relative;
 }
 
-.blogHtml main .asideContent {
+.blog main .asideContent {
   background-color: #0d457f;
   color: #fff;
   width: 55%;
@@ -959,13 +959,13 @@ nav {
   padding-bottom: 8%;
 }
 
-.blogHtml main .asideContent h3 {
+.blog main .asideContent h3 {
   color: #fdd908;
   margin-bottom: 10px;
   margin-top: 20px;
 }
 
-.blogHtml main aside img {
+.blog main aside img {
   width: 60%;
   position: absolute;
   left: 0;
@@ -974,7 +974,7 @@ nav {
   height: 300px;
 }
 
-.blogHtml main .asideContent ul {
+.blog main .asideContent ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -988,12 +988,12 @@ nav {
   padding-left: 5%;
 }
 
-.blogHtml main .asideContent ul li {
+.blog main .asideContent ul li {
   list-style: disc;
   margin: 1px 0;
 }
 
-.blogHtml footer {
+.blog footer {
   background-color: #fdd908;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1007,12 +1007,12 @@ nav {
           align-items: center;
 }
 
-.blogHtml footer p,
-.blogHtml footer a {
+.blog footer p,
+.blog footer a {
   color: #0d457f;
 }
 
-.blogHtml footer a {
+.blog footer a {
   font-size: 1.8rem;
   margin-left: 0;
   padding-left: 0;
@@ -1020,36 +1020,36 @@ nav {
   text-decoration: none;
 }
 
-.blogHtml footer a:hover {
+.blog footer a:hover {
   color: #eafefc;
 }
 
-.blogHtml footer a:focus {
+.blog footer a:focus {
   border: 1px solid #0d457f;
 }
 
-.blogHtml footer p {
+.blog footer p {
   text-transform: capitalize;
 }
 
 @media (max-width: 1300px) {
-  .blogHtml main .asideContent {
+  .blog main .asideContent {
     width: 85%;
     padding-bottom: 100px;
   }
-  .blogHtml main aside img {
+  .blog main aside img {
     width: 90%;
   }
 }
 
 @media (max-width: 1000px) {
-  .blogHtml main .nextDestinationSection img {
+  .blog main .nextDestinationSection img {
     height: 450px;
   }
 }
 
 @media (max-width: 900px) {
-  .blogHtml main {
+  .blog main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1058,71 +1058,73 @@ nav {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .blogHtml main .blogMainContent {
+  .blog main .blogMainContent {
     width: 100%;
     position: relative;
   }
-  .blogHtml main .nextDestinationSection img {
+  .blog main .nextDestinationSection img {
     position: static;
     top: 0;
     width: 100%;
+    height: auto;
     -webkit-box-shadow: none;
             box-shadow: none;
     border-bottom: 30px solid #fdd908;
     border-left: none;
   }
-  .blogHtml main .nextDestinationSection {
+  .blog main .nextDestinationSection {
     border: none;
     position: static;
   }
-  .blogHtml main .nextDestinationSection div {
+  .blog main .nextDestinationSection div {
     border-left: none;
   }
-  .blogHtml main aside img {
+  .blog main aside img {
     position: static;
   }
-  .blogHtml main aside {
+  .blog main aside {
     width: 100%;
     position: static;
   }
-  .blogHtml main aside .asideContent {
+  .blog main aside .asideContent {
     width: 100%;
     position: static;
     padding-top: 50px;
     padding-bottom: 40px;
   }
-  .blogHtml main aside img {
+  .blog main aside img {
     width: 80%;
     position: static;
     display: block;
     margin: 0 auto;
+    height: auto;
   }
-  .blogHtml main .blogComents {
+  .blog main .blogComents {
     padding: 6%;
     padding-top: 0;
     margin-top: 0;
   }
-  .blogHtml main form {
+  .blog main form {
     width: 100%;
     height: 300px;
   }
 }
 
 @media (max-width: 550px) {
-  .blogHtml main form .blogName,
-  .blogHtml main form .blogEmail {
+  .blog main form .blogName,
+  .blog main form .blogEmail {
     width: 100%;
   }
-  .blogHtml main form .blogEmail {
+  .blog main form .blogEmail {
     margin-left: 0;
   }
-  .blogHtml main form {
+  .blog main form {
     height: 350px;
   }
-  .blogHtml header {
+  .blog header {
     height: 60vh;
   }
-  .blogHtml ul {
+  .blog ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1130,25 +1132,25 @@ nav {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .blogHtml h1 {
+  .blog h1 {
     width: 100%;
     margin: 0 auto;
     text-align: center;
     padding-top: 100px;
   }
-  .blogHtml a {
+  .blog a {
     font-size: 1.7rem;
     margin: 0;
   }
-  .blogHtml main aside img {
+  .blog main aside img {
     width: 100%;
     margin: 0;
   }
-  .blogHtml main .blogComents h2 {
+  .blog main .blogComents h2 {
     margin-bottom: 38px;
     text-align: center;
   }
-  .blogHtml main .blogComents .blogCommentEntry {
+  .blog main .blogComents .blogCommentEntry {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1159,29 +1161,29 @@ nav {
     text-align: center;
     margin-bottom: 30px;
   }
-  .blogHtml main .blogComents .blogCommentEntry img {
+  .blog main .blogComents .blogCommentEntry img {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 500px) {
-  .blogHtml footer {
+  .blog footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .blogHtml footer p {
+  .blog footer p {
     margin: 7px auto;
     text-align: center;
   }
-  .blogHtml footer p,
-  .blogHtml footer a {
+  .blog footer p,
+  .blog footer a {
     font-size: 1.6rem;
   }
 }
 
-.contactHtml header {
+.contact header {
   background-image: url("../assets/contact-header.jpg");
   height: 75vh;
   width: 100%;
@@ -1190,7 +1192,7 @@ nav {
   background-size: cover;
 }
 
-.contactHtml header ul {
+.contact header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1202,16 +1204,16 @@ nav {
   padding: 0;
 }
 
-.contactHtml header ul i {
+.contact header ul i {
   visibility: hidden;
   position: absolute;
 }
 
-.contactHtml header li {
+.contact header li {
   list-style: none;
 }
 
-.contactHtml header a {
+.contact header a {
   color: #fff;
   text-decoration: none;
   padding: 10px 10px;
@@ -1219,18 +1221,18 @@ nav {
   margin: 0 5px;
 }
 
-.contactHtml header a:hover,
-.contactHtml header a:focus {
+.contact header a:hover,
+.contact header a:focus {
   border-bottom: #fdd908 3px solid;
 }
 
-.contactHtml h1 {
+.contact h1 {
   font-size: 7.5rem;
   color: #fff;
   padding-top: 80px;
 }
 
-.contactHtml main {
+.contact main {
   background-color: #eafefc;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1245,7 +1247,7 @@ nav {
   position: relative;
 }
 
-.contactHtml main form {
+.contact main form {
   background-color: #0d457f;
   width: 50vw;
   height: 60vh;
@@ -1262,8 +1264,8 @@ nav {
       flex-wrap: wrap;
 }
 
-.contactHtml main form .name,
-.contactHtml main form .email {
+.contact main form .name,
+.contact main form .email {
   background-color: #0d457f;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1276,65 +1278,65 @@ nav {
   color: #fff;
 }
 
-.contactHtml main form input:hover,
-.contactHtml main form input:focus {
+.contact main form input:hover,
+.contact main form input:focus {
   border: 2px solid #fdd908;
   padding: 8px 8px 10px 8px;
 }
 
-.contactHtml main form input::-webkit-input-placeholder {
+.contact main form input::-webkit-input-placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form input:-ms-input-placeholder {
+.contact main form input:-ms-input-placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form input::-ms-input-placeholder {
+.contact main form input::-ms-input-placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form input::placeholder {
+.contact main form input::placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form textarea::-webkit-input-placeholder {
+.contact main form textarea::-webkit-input-placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form textarea:-ms-input-placeholder {
+.contact main form textarea:-ms-input-placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form textarea::-ms-input-placeholder {
+.contact main form textarea::-ms-input-placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form textarea::placeholder {
+.contact main form textarea::placeholder {
   color: #fff;
   opacity: 100%;
   text-transform: capitalize;
 }
 
-.contactHtml main form .email {
+.contact main form .email {
   margin-left: 10%;
 }
 
-.contactHtml main form .text {
+.contact main form .text {
   width: 100%;
   background-color: #0d457f;
   border: 2px solid #fdd908;
@@ -1345,7 +1347,7 @@ nav {
   resize: none;
 }
 
-.contactHtml main form button {
+.contact main form button {
   width: 100%;
   text-align: center;
   background-color: #fdd908;
@@ -1356,64 +1358,64 @@ nav {
   padding: 5px 0;
 }
 
-.contactHtml main form button:hover,
-.contactHtml main form button:focus {
+.contact main form button:hover,
+.contact main form button:focus {
   background-color: #cbae02;
   color: #eafefc;
 }
 
-.contactHtml main form button:active {
+.contact main form button:active {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.contactHtml .contactMainInfo {
+.contact .contactMainInfo {
   padding-left: calc(10vw - 10px);
   color: #0d457f;
   text-transform: capitalize;
 }
 
-.contactHtml .contactMainInfo ul {
+.contact .contactMainInfo ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
-.contactHtml .contactMainInfo li {
+.contact .contactMainInfo li {
   list-style: none;
 }
 
-.contactHtml .contactMainInfo a {
+.contact .contactMainInfo a {
   color: #0d457f;
   padding: 8px 8px;
   font-size: 2.5rem;
   margin: 0 5px;
 }
 
-.contactHtml .contactMainInfo a:hover,
-.contactHtml .contactMainInfo a:focus {
+.contact .contactMainInfo a:hover,
+.contact .contactMainInfo a:focus {
   background-color: #fdd908;
   border-radius: 30%;
 }
 
-.contactHtml .contactMainInfo p {
+.contact .contactMainInfo p {
   padding-left: 10px;
 }
 
-.contactHtml .contactMainInfo .infoEmail {
+.contact .contactMainInfo .infoEmail {
   margin-bottom: 30px;
   margin-top: 20px;
 }
 
-.contactHtml .contactMainInfo p {
+.contact .contactMainInfo p {
   margin: 5px 0;
 }
 
-.contactHtml footer {
+.contact footer {
   background-color: #fdd908;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1427,12 +1429,12 @@ nav {
           align-items: center;
 }
 
-.contactHtml footer p,
-.contactHtml footer a {
+.contact footer p,
+.contact footer a {
   color: #0d457f;
 }
 
-.contactHtml footer a {
+.contact footer a {
   font-size: 1.8rem;
   margin-left: 0;
   padding-left: 0;
@@ -1440,29 +1442,29 @@ nav {
   text-decoration: none;
 }
 
-.contactHtml footer a:hover {
+.contact footer a:hover {
   color: #eafefc;
 }
 
-.contactHtml footer a:focus {
+.contact footer a:focus {
   border: 1px solid #0d457f;
 }
 
-.contactHtml footer p {
+.contact footer p {
   text-transform: capitalize;
 }
 
 @media (max-width: 1000px) {
-  .contactHtml main form {
+  .contact main form {
     width: 60vw;
   }
-  .contactHtml .contactMainInfo {
+  .contact .contactMainInfo {
     padding-top: 120px;
   }
 }
 
-@media (max-width: 700px) {
-  .contactHtml main {
+@media (max-width: 800px) {
+  .contact main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1472,7 +1474,7 @@ nav {
             justify-content: space-between;
     position: relative;
   }
-  .contactHtml main form {
+  .contact main form {
     width: 90vw;
     height: 60vh;
     position: absolute;
@@ -1482,56 +1484,56 @@ nav {
             box-shadow: 15px 15px 1px #fdd908;
     padding: 6%;
   }
-  .contactHtml .contactMainInfo ul {
-    margin-top: 150px;
+  .contact .contactMainInfo ul {
+    margin-top: 180px;
   }
-  .contactHtml h1 {
+  .contact h1 {
     font-size: 7rem;
     padding-top: 40px;
   }
-  .contactHtml main form .name,
-  .contactHtml main form .email {
+  .contact main form .name,
+  .contact main form .email {
     padding: 10px;
     width: 90%;
     height: 40px;
     margin-bottom: 20px;
     margin: 0 auto;
   }
-  .contactHtml main form .email {
+  .contact main form .email {
     margin: 10px auto 20px auto;
   }
-  .contactHtml main .contactMainInfo {
+  .contact main .contactMainInfo {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 500px) {
-  .contactHtml footer {
+  .contact footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contactHtml footer p {
+  .contact footer p {
     margin: 7px auto;
     text-align: center;
   }
-  .contactHtml footer p,
-  .contactHtml footer a {
+  .contact footer p,
+  .contact footer a {
     font-size: 1.6rem;
   }
 }
 
 @media (max-width: 400px) {
-  .contactHtml main .formContact {
+  .contact main .formContact {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-  .contactHtml h1 {
+  .contact h1 {
     font-size: 6rem;
     padding-top: 20px;
   }
-  .contactHtml header a {
+  .contact header a {
     font-size: 1.7rem;
     margin: 0 1px;
   }
