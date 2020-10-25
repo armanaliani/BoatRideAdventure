@@ -627,6 +627,7 @@ nav {
     margin: 0 auto;
     top: -50px;
     width: 70vw;
+    border-right: 15px solid #FDD908;
   }
   .main .mainGridOneFlex {
     padding-top: 0px;
@@ -706,11 +707,18 @@ nav {
   .main .mainImgGal .imgGalimg2 {
     margin: 20px calc(20vw - 10%);
   }
+  .main .mainGridOne img {
+    border-right: 10px solid #FDD908;
+  }
 }
 
 @media (max-width: 550px) {
   .main main .tripOfLifeSection img {
     width: 70%;
+  }
+  .main .mainGridOne img {
+    width: 90vw;
+    right: 0;
   }
 }
 
@@ -728,9 +736,6 @@ nav {
   .main footer p,
   .main footer a {
     font-size: 1.6rem;
-  }
-  .main .mainGridOne img {
-    width: 90vw;
   }
   .main h1 {
     font-size: 3.7rem;
